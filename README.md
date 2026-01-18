@@ -11,13 +11,11 @@ This is the Fraud Job Detection Project since, this project was made on Collab, 
 A comprehensive machine learning pipeline for detecting fraudulent job postings using Natural Language Processing, statistical analysis, and multi-modal detection techniques. The system analyzes job descriptions, salary patterns, and metadata to identify suspicious postings with high accuracy.
 
 ## Key Features
-
-### AI-Powered Text Analysis
 - DistilBERT Model: Fine-tuned transformer model for semantic understanding of job descriptions
 - Text Classification: Automatically classifies job postings as fraudulent or legitimate
 - Contextual Understanding: Detects subtle linguistic patterns indicative of scams
 
-### Smart Salary Analysis
+### Salary Analysis
 - Outlier Detection: Identifies suspiciously high salaries based on experience levels
 - Telecommuting Correlation: Analyzes salary patterns for remote vs onsite positions
 - Experience-based Bands: Creates expected salary ranges for different job levels
@@ -26,11 +24,7 @@ A comprehensive machine learning pipeline for detecting fraudulent job postings 
 - Rule-based Filters: Flags posts with suspicious keywords like "urgent" or "no experience needed"
 - Metadata Analysis: Checks for missing company profiles, benefits, and salary information
 - Clustering Algorithms: Groups similar job posts to identify anomalous patterns using K-means
-
-### Advanced Capabilities
-- OCR Integration: Extracts text from image-based job postings using EasyOCR
-- Data Visualizations: Generates confusion matrices, correlation heatmaps, and trend analyses
-- Real-time Prediction: Deployable model for instant fraud detection
+- Multivariate and Bivariate Analysis: Compared over 10 features to one another to check for correlation.
 
 ## Technical Stack
 
@@ -43,13 +37,11 @@ A comprehensive machine learning pipeline for detecting fraudulent job postings 
 ### Specialized Tools
 - EasyOCR: Optical Character Recognition for image processing
 - Statsmodels: Statistical analysis and hypothesis testing
-- Joblib: Model serialization and persistence
-- XGBoost: Gradient boosting for ensemble methods
 
 ### Infrastructure
 - Google Colab: Cloud-based execution with GPU access
 - Google Drive Integration: Permanent model storage and data management
-- PyTorch: Deep learning framework for model training
+
 
 ## Performance Metrics
 - Accuracy: 92% on validation dataset
@@ -72,8 +64,8 @@ A comprehensive machine learning pipeline for detecting fraudulent job postings 
 
 ### 3. Model Training Pipeline
 - Data Preprocessing: Cleaning, normalization, and encoding
-- Cross-Validation: Robust model evaluation strategy
-- Hyperparameter Tuning: Optimized model performance
+- Cross-Validation
+- Hyperparameter Tuning
 
 ### 4. Validation Methods
 - Train-Test Split: 80-20 partitioning for model evaluation
@@ -111,4 +103,4 @@ A comprehensive machine learning pipeline for detecting fraudulent job postings 
 - Browser extension for automatic detection while browsing job sites
 - Multi-language support for international job markets
 ## Limitations:
-- Severe Class imbalance in data can be fixed using SMOT
+- Severe Class imbalance in data can be fixed using SMOTE
