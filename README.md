@@ -1,5 +1,5 @@
 # Job_Post_detection_Project
-This is the Fraud Job Detection Project since, this project was made on Collab, I have insereted the Google Collab File here, if it does not work, please use this open access link for the Project:
+This is the Fraud Job Detection Project since, this project was made on Collab, I have inserted the Google Collab File here, if it does not work, please use this open access link for the Project:
 -------------------------------------------------------------------------------------------------------------
     https://colab.research.google.com/drive/1V0k91_sBsUmz5qvn8-4njvMaY9WMI8fI?usp=sharing
 -------------------------------------------------------------------------------------------------------------
@@ -50,7 +50,7 @@ A comprehensive machine learning pipeline for detecting fraudulent job postings 
 
 
 
-## Analytical Techniques Used
+
 
 ### 1. Feature Engineering
 - Combined multiple text fields into comprehensive job descriptions
@@ -103,4 +103,4 @@ A comprehensive machine learning pipeline for detecting fraudulent job postings 
 - Browser extension for automatic detection while browsing job sites
 - Multi-language support for international job markets
 ## Limitations:
-- Severe Class imbalance in data can be fixed using SMOTE
+- Severe Class imbalance in data will be fixed using SMOTE
